@@ -1,0 +1,14 @@
+name: deeplearningproject3
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch>=2.0.0
+  - torchvision>=0.15.0
+  - numpy>=1.24.0
+  - matplotlib>=3.7.0
+  - jupyter>=1.0.0
+  - pillow>=9.0.0  # For image processing
+  - pip
