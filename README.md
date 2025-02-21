@@ -1,38 +1,39 @@
 # DeepLearningPractice
 
-This repository contains a series of projects designed to practice skills from Andrew Ng's Deep Learning Specialization (Coursera, DeepLearning.AI). The projects incrementally increase in difficulty, using PyTorch instead of TensorFlow, and are developed locally with Jupyter Notebook and Cursor editor.
+This repository contains projects to practice skills from Andrew Ng's Deep Learning Specialization, implemented in PyTorch. Developed with Cursor and Jupyter Notebooks.
 
 ## Projects
 
 1. **Handwritten Digit Classifier (Project1_HandwrittenDigitClassifier)**  
-   - **Objective**: Build a basic neural network to classify MNIST digits (0-9).  
-   - **Skills**: Neural network basics, forward/backward propagation, PyTorch.  
-   - **Difficulty**: Beginner.
+   - Build a basic neural network to classify MNIST digits.  
+   - Skills: Neural network basics, PyTorch.  
+   - Difficulty: Beginner.
 
-2. **Improved Digit Classifier with Optimization (Project2_ImprovedDigitClassifier)**  
-   - **Objective**: Enhance Project 1 with regularization and Adam optimization.  
-   - **Skills**: Optimization, regularization, hyperparameter tuning.  
-   - **Difficulty**: Intermediate.
+2. **Improved Digit Classifier (Project2_ImprovedDigitClassifier)**  
+   - Enhance Project 1 with optimization techniques.  
+   - Skills: Regularization, Adam optimizer.  
+   - Difficulty: Intermediate.
 
-3. **Cats vs. Dogs Image Classifier (Project3_CatsVsDogsClassifier)**  
-   - **Objective**: Use a CNN to classify cat vs. dog images.  
-   - **Skills**: Convolutional layers, pooling, data augmentation.  
-   - **Difficulty**: Intermediate-Advanced.
+3. **Cats vs. Dogs Classifier (Project3_CatsVsDogsClassifier)**  
+   - Use a CNN for image classification.  
+   - Skills: Convolutional layers, data augmentation.  
+   - Difficulty: Intermediate-Advanced.
 
-4. **Sentiment Analysis on Movie Reviews (Project4_SentimentAnalysis)**  
-   - **Objective**: Build an LSTM model for IMDB review sentiment classification.  
-   - **Skills**: RNNs, LSTMs, word embeddings.  
-   - **Difficulty**: Advanced.
+4. **Sentiment Analysis (Project4_SentimentAnalysis)**  
+   - Build an LSTM for IMDB review classification.  
+   - Skills: RNNs, LSTMs, embeddings.  
+   - Difficulty: Advanced.
 
-5. **Music Genre Classification with Transfer Learning (Project5_MusicGenreClassification)**  
-   - **Objective**: Classify music genres using a pre-trained CNN and spectrograms.  
-   - **Skills**: Transfer learning, project structuring, audio processing.  
-   - **Difficulty**: Expert.
+5. **Music Genre Classification (Project5_MusicGenreClassification)**  
+   - Use transfer learning with spectrograms.  
+   - Skills: Transfer learning, audio processing.  
+   - Difficulty: Expert.
 
 ## Setup
 - **Editor**: Cursor  
-- **Development**: Jupyter Notebook  
 - **Framework**: PyTorch  
-- **Install Dependencies**: Each project folder has a `requirements.txt`. Run:
+
+### With pip (Recommended for Compatibility)
+- Install dependencies in each project folder:
   ```bash
   pip install -r requirements.txt
